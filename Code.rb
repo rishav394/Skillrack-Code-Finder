@@ -9,9 +9,10 @@ def get_code()
 	start=0
 	while !xfile2.eof?
 		ch=xfile2.readline
-		if ch=~ /#include/
+		if ch=~ /Example: <pre> Your Code <\/pre>/
 			flag = 1
 			start = 1
+			ch=xfile2.readline
 		end
 		if ch=~ /12345678910/
 			if start==1
@@ -38,9 +39,9 @@ end
 
 puts "For Updates go to \nhttps://github.com/rishav394/Skillrack-Code-Finder/releases"
 
-puts "Enter code no\n"
+puts "\nEnter code no\n"
 num = gets
-
+puts "\n"
 intel=RestClient.get("https://vitspot.com/?s=#{num}")
 xfile=File.open("code.txt","w")
 xfile.write(intel.body)
@@ -57,9 +58,8 @@ end
 xfile2.close
 get_to_text(dat[1])
 puts "\n\nPress Enter to continue."
+gets
 xfile=File.open("code.txt","w")
 xfile.write("Thanks for using this software. You may delete this file. Feedbacks and complains MOST welcome. Contact: rishav394@gmail.com")
 xfile.close
 FileUtils.rm_f 'code.txt'
-
-gets
