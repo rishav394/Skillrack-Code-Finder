@@ -2,9 +2,11 @@ require 'rubygems'
 require 'nokogiri'
 require 'restclient'
 require "fileutils"
+require 'clipboard'
 
 def get_code()
 	xfile2=File.open("code.txt", "r")
+	xfileg=File.open("Solution.txt","w")
 	flag=0
 	start=0
 	while !xfile2.eof?
@@ -21,8 +23,16 @@ def get_code()
 		end
 		if flag == 1
 			puts ch
+			xfileg.write(ch)
 		end
 	end
+	puts "}"
+	xfileg.write("\n}")
+	xfileg.close
+	xfileg=File.open("Solution.txt","r")
+	temp=xfileg.read
+	Clipboard.copy(temp)
+	xfileg.close
 end
 
 
@@ -57,7 +67,9 @@ while !xfile2.eof?
 end
 xfile2.close
 get_to_text(dat[1])
-puts "\n\nPress Enter to continue."
+puts "\n\nCode copied to clipboard and Pasted in \"Solution.txt\" in the very folder. "
+puts "Press Ctrl+V to paste."
+puts "Press Enter to continue. Also a \"}\" may be extra. Please check."
 gets
 xfile=File.open("code.txt","w")
 xfile.write("Thanks for using this software. You may delete this file. Feedbacks and complains MOST welcome. Contact: rishav394@gmail.com")
