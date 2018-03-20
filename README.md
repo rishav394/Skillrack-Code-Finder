@@ -12,4 +12,4 @@ Just Enter the Question ID and this program will give you the C code.
 
 <h2>Downloads</h2>
 
-[![Version](https://img.shields.io/github/release/Marc3842h/Titan/all.svg?label=version)](https://github.com/Marc3842h/Titan/releases)
+[![Version](https://img.shields.io/versioneye/d/ruby/rails.svg?label=version)](https://github.com/rishav394/Skillrack-Code-Finder/releases/download/1.2.1/Code.exe)
