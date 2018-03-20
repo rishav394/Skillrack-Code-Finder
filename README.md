@@ -11,18 +11,4 @@ Just Enter the Question ID and this program will give you the C code.
 </div>
 
 <h2>Downloads</h2>
-<table>
-<th>
-  <td>
-  Version
-  </td>
-<td>Link</td>
-</th>
-<tr>
-<td>1.2.1</td>
-<td>(Latest release)</td>
-  <td>
-  <a href="https://github.com/rishav394/Skillrack-Code-Finder/releases/download/1.2.1/Code.exe">Click Here</a>
-  </td>
-</tr>
-</table>
+[![Version]https://img.shields.io/badge/version-1.2.1-brightgreen.svg?label=version)](https://github.com/rishav394/Skillrack-Code-Finder/releases/download/1.2.1/Code.exe)
