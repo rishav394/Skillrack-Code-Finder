@@ -12,6 +12,5 @@ Just Enter the Question ID and this program will give you the C code.
 
 <h2>Downloads</h2>
 
-![Travis](https://img.shields.io/travis/USER/REPO.svg?style=plastic)
-
+![Travis](https://img.shields.io/badge/build-passing-blue.svg?style=plastic)
 [![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/rishav394/Skillrack-Code-Finder/releases/download/1.2.1/Code.exe)
