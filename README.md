@@ -1,6 +1,6 @@
 
 <div align="center">
-    <img width=15% src="https://github.com/rishav394/Skillrack-Code-Finder/blob/master/logo.gif">
+    <img width=35% src="https://github.com/rishav394/Skillrack-Code-Finder/blob/master/logo.gif">
 </div>
 
 # Skillrack-Code-Finder
