@@ -3,6 +3,7 @@
 ![Travis](https://img.shields.io/badge/build-passing-blue.svg?style=plastic)
 [![VersionEye](https://img.shields.io/versioneye/d/ruby/rails.svg?style=plastic)](https://github.com/rishav394/Skillrack-Code-Finder/releases/download/1.2.1/Code.exe)
 ![Packagist](https://img.shields.io/packagist/l/doctrine/orm.svg?style=plastic)
+![CocoaPods](https://img.shields.io/cocoapods/metrics/doc-percent/AFNetworking.svg?style=plastic)
 
 
 
