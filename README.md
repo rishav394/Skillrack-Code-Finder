@@ -36,4 +36,4 @@ Just Enter the Question ID and this program will give you the C code.
 </table>
 
 ## Code Of Conduct
-All the code is being fetched from [VITSpot](https://vitspot.com/code/) and I am in no way related to the site what so ever. Hop in and say them a hi. 
+All the code is being fetched from [VITSpot](https://vitspot.com/code/) and I am in no way related to the site what so ever. I have their prior permission to scrap their site. 

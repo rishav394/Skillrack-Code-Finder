@@ -5,6 +5,7 @@ require "fileutils"
 require 'clipboard'
 
 def get_code
+	
 	xfile2=File.open("code.txt", "r")
 	xfileg=File.open("Solution.txt","w")
 	flag=0
